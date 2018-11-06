@@ -16,4 +16,5 @@ object KleisliExample3 extends App {
 
   println(times3Andadd2(2))
   println(add2AndTimes3(2))
+
 }

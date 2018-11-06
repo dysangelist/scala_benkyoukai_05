@@ -16,7 +16,6 @@ object PartialExample3 extends App {
     def apply(v1: Character): String = "His name is just an initial!"
   }
 
-
   val c = longNamePF.orElse(initialPF)
 
   l.map(c)
