@@ -11,17 +11,6 @@ object DividedBy extends App {
    *
    *（ちなみに私の回答は4行です。🌟）
    */
-
-  @tailrec
-  def hoge(ls: List[Int], ds: List[Int]): List[Int] = {
-    ds match {
-      case h :: t => hoge(ls.filter(_ % h == 0), t)
-      case Nil    => ls
-    }
-  }
-
-  val a = (1 to 1000).toList
-  val b = (1 to 3).toList
-  print(hoge(a, b))
+  
 
 }
