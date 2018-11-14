@@ -11,6 +11,6 @@ object FactorialExample2 extends App {
     go(1, n)
   }
 
-  print(factorial(1400))
+  print(factorial(1600))
 
 }

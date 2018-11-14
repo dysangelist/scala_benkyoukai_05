@@ -8,6 +8,6 @@ object FactorialExample1 extends App {
       n * factorial(n - 1)
   }
 
-  print(factorial(1400))
+  print(factorial(1600))
 
 }

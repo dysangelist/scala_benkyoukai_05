@@ -13,6 +13,10 @@ object PartialExample4 extends App {
     case c if c.name.length < 2 => "His name is just an initial!"
   }
 
+  val initialPF2: PartialFunction[Character, String] = {
+    case c if c.name.length < 2 => "beep!"
+  }
+
   val c = longNamePF.orElse(initialPF)
 
   l.map(c)
